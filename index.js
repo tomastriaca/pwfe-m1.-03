@@ -2,7 +2,7 @@ const http = require("http");
 const fs = require("fs");
 
 //const port = PUERTO_DE_HEROKU ||PUERTO_MIO
-const port = process.env.Port || 80
+const port = process.env.PORT|| 80
 http.createServer((request, response) => {
 		
 		let dir = "public/";
